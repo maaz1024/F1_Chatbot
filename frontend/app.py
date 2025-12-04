@@ -2,7 +2,8 @@ import streamlit as st
 import requests
 import pandas as pd
 
-API_URL = "http://localhost:8000"
+# Update this with your live Render URL (no trailing slash)
+API_URL = "https://f1-backend-iw5n.onrender.com"
 
 # PAGE CONFIG
 st.set_page_config(
@@ -201,6 +202,7 @@ elif page == "🧮 WDC Title Predictor":
                 },
                 hide_index=True,
                 height=400
+            )  # <--- Added closing parenthesis here
 
             run = st.button("🏁 Run Simulation", type="primary", use_container_width=True)
 
