@@ -1,6 +1,6 @@
 # 🏎️ F1 Assistant & Championship Simulator
 
-### Live App: F1 Assistant Streamlit App
+### Live App: [F1 Assistant Streamlit App](https://maaz1024-f1chatbot.streamlit.app/)
 
 A full-stack AI-powered Formula 1 application that combines a RAG-based chatbot with real-time race data analysis and championship simulations.
 
