@@ -2,7 +2,6 @@ import streamlit as st
 import requests
 import pandas as pd
 
-# Update this with your live Render URL (no trailing slash)
 API_URL = "https://f1-backend-iw5n.onrender.com"
 
 # PAGE CONFIG
